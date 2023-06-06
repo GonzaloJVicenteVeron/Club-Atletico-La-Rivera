@@ -20,7 +20,7 @@ body {
     top: 0;
     left: 0;
     right: 0;
-    background-color: rgb(1, 1, 1, 0.7) ;
+    background-color: rgb(54, 108, 156) ;
     padding: 0px 10%;
     display: flex;
     align-items: center;
@@ -28,22 +28,18 @@ body {
     z-index: 1000;
 }
 
-.logo {
-    font-size: 25px;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    font-weight: 700;
+.logo img {
+    height: 4rem;
+    width: 3,5rem;
 }
 
 .navigation ul {
     list-style: none;
-
 }
 
 .header .navigation ul li {
     float: left;
-    position: relative;
-    
+    position: relative;   
 }
 
 .header .navigation ul li a {
@@ -56,16 +52,18 @@ body {
 }
 
 .header .navigation ul li a:hover {
-    background-color: #685cfe;    
+    background-color: #0f0661;    
 }
 
 .header .navigation ul li ul {
-    position: absolute;
-    right: 0;
+    position: absolute;   
     width: 300px;
     background-color: rgba(1, 1, 1, 0.7);
     display: none;
+    right: 10;
+    margin-top: 4px;
 }
+
 
 
 .header .navigation ul li ul li a {
@@ -73,13 +71,6 @@ body {
     text-transform: capitalize;
 
 }
-
-.header .navigation ul li ul li ul {
-    position: absolute;
-    top: 0;
-    right: 300px;
-}
-
 
 .header .navigation ul li ul li {
     width: 100%;
