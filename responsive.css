@@ -41,3 +41,29 @@
     }
 
 }
+
+/* Responsive for main, from 320px*/
+
+@media screen and (min-width: 320px) {
+    .club-name-top-left {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+    .club-name-top-left h1>p {
+        text-align: center;
+        
+    }
+    .club-name-top-left-p {
+        font-size: 14px;
+        text-align: center;
+    }    
+    
+    .club-name-bottom {
+        padding: 10px;
+        font-size: 12px;
+        text-align: center;
+        margin: 5px;
+    }
+
+    }
