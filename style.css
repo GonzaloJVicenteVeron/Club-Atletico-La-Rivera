@@ -157,8 +157,37 @@ body {
     text-transform: uppercase;
 }
 
+.top-sports {   
+    background-color: rgb(19, 10, 146);
+    color: rgb(179, 179, 179);
+}
+
 .title-sports {
     font-family:'Montserrat', sans-serif;
+    font-size: 17px;
     text-align: center;
-    font-size: 15px;
+}
+
+.description-sports {
+    font-family:'Montserrat', sans-serif;
+    font-size: 12px;
+    text-align: center;
+}
+
+.club-sports div {
+    margin: 15px;
+    background-color: rgb(54, 108, 156)
+}
+
+
+.club-sports h2 {
+    text-transform: uppercase;
+    font-family:'Montserrat', sans-serif;
+    padding: 10px;    
+}
+
+.club-sports img {
+    max-width: 100%;
+    height: auto;
+    padding: 5px;
 }

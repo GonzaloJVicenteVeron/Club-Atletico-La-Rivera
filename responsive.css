@@ -45,6 +45,9 @@
 /* Responsive for main, from 320px*/
 
 @media screen and (min-width: 320px) {
+    
+    
+
     .club-name-top-left {
         display: flex;
         flex-direction: column-reverse;
@@ -66,4 +69,33 @@
         margin: 5px;
     }
 
+    .top-sports {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        gap: 15px;
+        padding: 5px;
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+}
