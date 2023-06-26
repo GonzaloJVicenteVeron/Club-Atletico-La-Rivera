@@ -46,6 +46,14 @@
 
 @media screen and (min-width: 320px) {
     
+    .club-name-top {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        min-width: 100%;
+        gap: 10px;
+        flex-direction: column;
+    }
     
 
     .club-name-top-left {
