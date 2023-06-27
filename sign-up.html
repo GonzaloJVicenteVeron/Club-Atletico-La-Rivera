@@ -11,24 +11,28 @@
     <h2>¿No tenes cuenta? ¡Registrate!</h2>
     
     <label for="nombre">Nombre:</label>
-    <input class="inputs" type="text" id="nombre" name="nombre" required><br>
+    <input class="inputs" type="text" id="nombre" name="nombre" placeholder="Nombre"  required><br>
 
     <label for="apellido">Apellido:</label>
-    <input class="inputs" type="text" id="apellido" name="apellido" required><br>
+    <input class="inputs" type="text" id="apellido" name="apellido" placeholder="Apellido"  required><br>
 
     <label for="email">Email:</label>
-    <input class="inputs" type="email" id="email" name="email" required><br>
+    <input class="inputs" type="email" id="email" name="email" placeholder="Email" required><br>
 
     <label for="contrasena">Contraseña:</label>
-    <input class="inputs" type="password" id="contrasena" name="contrasena" required><br>
+    <input class="inputs" type="password" id="contrasena" placeholder="Contraseña"name="contrasena" required><br>
 
-    <p>Estoy de acuerdo con <a href="#">Terminos y condiciones</a></p>
-
-    <input type="submit" value="Registrarse">
-    <button>Ya tengo una cuenta</button>
+    <div class="terms-conditions">
+        <span><input type="checkbox"></span><p>Estoy de acuerdo con <a href="#">Terminos y condiciones</a></p>
+    </div>
+    <div class="buttoms-div">
+        <input  class="buttoms" type="submit" value="Registrarse">
+        <button class="buttoms"><a href="">Ya tengo una cuenta</a></button>
+    </div>
     </form>
     </section>
 
+    <p class="img-logo"><a href="index.html"><img src="./assets/Logo.png" alt="Logo"></a></p>
 
 </body>
 </html>
