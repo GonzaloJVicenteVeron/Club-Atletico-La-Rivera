@@ -10,8 +10,8 @@
 }
 
 html {
+    scroll-padding-top: 150px;
     scroll-behavior: smooth;
-    scroll-padding-top: 200px;
 }
 
 body {
@@ -142,7 +142,7 @@ body {
     height: auto;
 }
 
-.top-sports {   
+#top-sports {   
     background-color: rgb(19, 10, 146);
     color: rgb(179, 179, 179);
 }
@@ -159,9 +159,9 @@ body {
     text-align: center;
 }
 
-.club-sports div {
+.club-sports section {
     margin: 15px;
-    background-color: rgb(54, 108, 156)
+    background-color: rgb(54, 108, 156);
 }
 
 
@@ -192,7 +192,7 @@ body {
     padding: 0px 2px;
 }
 
-.socios-left {
+#socios-left {
     font-family: poppins;
     text-align: center;
     padding: 2px;
@@ -251,9 +251,9 @@ body {
     text-align: center;
 }
 
-.Contact {
+#Contact {
     font-family: poppins;
-    background-color: beige;
+    background-color: rgb(245, 245, 220);
 }
 
 
@@ -282,9 +282,7 @@ body {
 
 .footer-bottom  {
     
-        text-decoration: none;
-      
-      
+    text-decoration: none;            
 
 }
 
