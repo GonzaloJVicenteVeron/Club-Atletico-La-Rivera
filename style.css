@@ -7,6 +7,11 @@
     margin: 0px;
     padding: 0px;
     box-sizing: inherit;
+    
+}
+
+a {
+    text-decoration: none;
 }
 
 html {
@@ -116,6 +121,7 @@ body {
     font-family: 'Outfit', sans-serif;
     text-transform: uppercase;
     font-weight: 700;
+    padding-top: 10px 
 }
 .club-name-top-left-p span {
     color: #1c0da3;
@@ -155,7 +161,7 @@ body {
 
 .description-sports {
     font-family:'Montserrat', sans-serif;
-    font-size: 12px;
+    font-size: 16px;
     text-align: center;
 }
 
@@ -266,8 +272,7 @@ body {
     text-transform: uppercase;
     font-family:'Montserrat', sans-serif;
     font-size: 15px;
-    color: white;
-    
+    color: white;   
 }
 
 .footer img {
