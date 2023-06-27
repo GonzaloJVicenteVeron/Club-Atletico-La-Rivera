@@ -11,6 +11,7 @@
 
 html {
     scroll-behavior: smooth;
+    scroll-padding-top: 200px;
 }
 
 body {
@@ -120,19 +121,19 @@ body {
     color: #1c0da3;
 }
 
-.club-name-bottom {
+#club-name-bottom {
     background-color: rgb(54, 108, 156);
     font-family: poppins;
 }
 
-.club-name-bottom p {
+#club-name-bottom p {
     font-weight: 800;    
 }
-.club-name-bottom p span {
+#club-name-bottom p span {
     text-transform: uppercase;
     transform: all 5s ease;
 }
-.club-name-bottom p span:hover {
+#club-name-bottom p span:hover {
     color: white;
     transform: all 5s ease;
 }
@@ -248,5 +249,42 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+}
+
+.Contact {
+    font-family: poppins;
+    background-color: beige;
+}
+
+
+.submit-button {
+    margin: 5px;
+}
+
+.footer {
+    background-color: #0f0661;
+    text-transform: uppercase;
+    font-family:'Montserrat', sans-serif;
+    font-size: 15px;
+    color: white;
+    
+}
+
+.footer img {
+    height: 70px;
+    width: 70px;    
+}
+
+.footer-bottom img {
+    width: 50px;
+    height: 50px;
+}
+
+.footer-bottom  {
+    
+        text-decoration: none;
+      
+      
+
 }
 

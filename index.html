@@ -10,7 +10,7 @@
 </head>
 <body>   
     
-    <header class="header">
+    <header class="header" id="header">
         <div class="logo"><a href="#"><img src="/assets/Logo.png"  alt="Logo"></a></div>
         <input type="checkbox" id="toggle">
         <label for="toggle"><img class="menu" src="./assets/menu svg blanco.svg" alt="menu"></label>
@@ -24,12 +24,12 @@
                     </ul>
             
             </li>
-                <li><a href="#">Deportes</a>
+                <li><a href="#sports">Deportes</a>
                     <ul>
-                        <li><a href="#">Futbol</a></li>
-                        <li><a href="#">Basquet</a></li>
-                        <li><a href="#">Tenis</a></li>
-                        <li><a href="#">Natacion</a></li>
+                        <li><a href="#futbol">Futbol</a></li>
+                        <li><a href="#basquet">Basquet</a></li>
+                        <li><a href="#tenis">Tenis</a></li>
+                        <li><a href="#natacion">Natacion</a></li>
                     </ul>
                 
                 </li>
@@ -54,19 +54,19 @@
     
     </header>
     
-    <main class="main" id="main">
-        <section class="club-name-top">
+    <main id="main">
+        <section id="club-name-top">
             <div class="club-name-top-left">
                 <h1><p><span>C</span>lub <span>A</span>tlético <span>L</span>a <span>R</span>ivera</p>                    
                 </h1>
-                <p class="club-name-top-left-p">Un club distinto, <span>para gente distinta. </span></p>
+                <p class="club-name-top-left-p" id="top">Un club distinto, <span>para gente distinta. </span></p>
             </div>
                 <img src="./assets/Hinchada.jpg" alt="Supporters" class="club-name-top-right">
         </section>
         
-        <section class="club-name-bottom">
+        <section id="club-name-bottom">
 
-            <h2>Donde todo comenzo ...</h2>
+            <h2 id="all-begins">Donde todo comenzo ...</h2>
             <p>Empezo siendo como un club de barrio y terminó siendo un espacio donde miles de hinchas se sienten representados y cientos de familias se sienten bien recibidos. Te invitamos a recorrer esta página y que te enamores de esta familia que llamamos <span>Club Atletico La Rivera.</span></p>
 
 
@@ -74,22 +74,29 @@
         </section>
     </main>
 
-    <div class="top-sports">
-        <h2 class="title-sports">Nuestras instalaciones</h2>
-        <p class="description-sports">Enterate de todo lo que podes hacer en el club</p>
-    </div>
+    
+        <div class="top-sports" >
+            <h2 class="title-sports"    id="title-sports">Nuestras instalaciones</h2>
+            <p class="description-sports">Enterate de   todo lo que podes hacer en el club</p>
+        </div>
+    
 
     <section class="club-sports">
 
-        <div class="Futbol">
+        <section id="futbol">
+        
+        <div class="Futbol" >
             <h2>Fútbol</h2>
             <span class="club-sports-description">
                 <img src="./assets/Futbol.jpg" alt="Futbol">
                 <p>Uno de los equipos modelo del Futbol Argentino. El Futbol en La Rivera está en una etapa ascendente, no sólo por la cantidad de chicos que quieren comenzar a desarrollar esta disciplina en la institución, sino también por los recientes logros obtenidos en el Club en los últimos campeonatos disputados por el primer equipo. ¡Sumate!</p>
             </span>
         </div>
+        
+        </section>
     
-    
+        <section id="basquet">
+        
         <div class="Basquet">
             <h2>Basquet</h2>
             <span class="club-sports-description">
@@ -100,7 +107,10 @@
             </span>
         </div>
         
+        </section>
     
+        <section id="tenis">
+        
         <div class="Tenis">
             <h2>Tenis</h2>
             <span class="club-sports-description">
@@ -108,8 +118,11 @@
                 <p>Toda la información de Tenis. Escuela a partir de los 4 años, clases individuales y grupales, competencias internas e interclubes. Contamos con 4 canchas de ladrillo naranja, aptas para todo tipo de practica.</p>
             </span>            
         </div>
+        
+        </section>
     
-    
+        <section id="natacion">
+        
         <div class="Natacion">
             <h2>Natacion</h2>
             <span class="club-sports-description">
@@ -178,6 +191,8 @@
                 <label for="message">Su mensaje (*):</label>
                 <textarea name="message" id="message" cols="30" rows="10" placeholder="Mensaje" required></textarea>
                 
+                <button class="submit-button"> Enviar </button>
+
             </form>
 
 
@@ -191,16 +206,16 @@
     <div class="footer-principal">
         <p>Seguinos</p>
 
-        <img src="./assets/Twitter icon.png" alt="Twitter">
-        <img src="./assets/Instagram Icon.png" alt="Instagram">
-        <img src="./assets/Linkedin icon.png" alt="Linkedin">
-        <img src="./assets/Youtube Icon.png" alt="Youtube">
+        <a href="#"><img src="./assets/Twitter icon.png" alt="Twitter"></a>
+        <a href="#"><img src="./assets/Instagram Icon.png" alt="Instagram"></a>
+        <a href="#"><img src="./assets/Linkedin icon.png" alt="Linkedin"></a>
+        <a href="#"><img src="./assets/Youtube Icon.png" alt="Youtube"></a>
     
-        <p>Proveedores</p>
+        <a href="#"><p>Proveedores</p></a>
 
     </div>   
 
-    <p><img src="./assets/Copyright icon.png" alt="">Copyright 2023 La Rivera</p>
+    <p class="footer-bottom"><img src="./assets/Copyright icon.png" alt="">Copyright 2023 La Rivera</p>
 
 
 </footer>

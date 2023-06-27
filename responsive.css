@@ -70,7 +70,7 @@
         text-align: center;
     }    
     
-    .club-name-bottom {
+    #club-name-bottom {
         padding: 10px;
         font-size: 12px;
         text-align: center;
@@ -86,9 +86,37 @@
         padding: 5px;
     }
 
+    .contact-top {
+        text-align: center;
+        padding: 10px;
+    }
 
+    .form-contact {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: space-around;
+        padding: 10px;
+        
+    }
 
+    .footer-principal {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 10px;
+    }
 
+    .footer-bottom {
+        display: flex;       
+        align-items: center;
+        justify-content: center;
+        padding-top: 20px;
+
+    }
+    
 
 
 
