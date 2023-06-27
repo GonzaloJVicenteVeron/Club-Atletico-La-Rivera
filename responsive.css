@@ -211,5 +211,20 @@
 
 }
 
+@media screen and (min-width: 1200px) {
+    #club-name-bottom {
+        font-size: 17px;
+    }
+}
 
+.club-sports p {
+    font-size: 20px;
+}
 
+.socios-title {
+    font-size: 20px ;
+}
+
+.form-contact input {
+    width: auto;
+}
